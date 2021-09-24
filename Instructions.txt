@@ -1,0 +1,16 @@
+Requirements
+1. TensorFlow
+2. TF Ranking Library
+3. argparse
+
+
+Guide
+1. For each model developed, a shell file is used pass arguments to them 
+
+2. To run simple specify the path to training and test files
+
+3. There are two model files - tfmodel.py and tfbertmodel.py 
+
+4. There are two shell files one for each model. traintfr.sh for tfmodel.py and traintfrbert.sh for tfbertmodel.py 
+
+5. tfbertmodel requires pretrained models in the folder pertained. Simply point the path in the traintfrbert.sh to the pretrained models to run.
